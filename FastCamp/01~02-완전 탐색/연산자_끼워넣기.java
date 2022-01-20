@@ -28,14 +28,15 @@ public class 연산자_끼워넣기 {
 
     }
 
-    /**
+    
+    static int max = Integer.MIN_VALUE;
+    static int min = Integer.MAX_VALUE;
+
+     /**
      * 연산자간의 순열을 만들고
      * 주어진 numbers와 연산자들을 연산해서
      * 최대값과 최소값을 저장하는 함수
      */
-    static int max = Integer.MIN_VALUE;
-    static int min = Integer.MAX_VALUE;
-
     private static void permutation(int cnt, int value) {
         if (cnt == N - 1) {
             max = Math.max(max,value);
