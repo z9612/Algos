@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 //참고 자료 : https://m.blog.naver.com/grd406/221504540097
 
-public class 카잉달력 {
+public class Main {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
@@ -24,8 +24,6 @@ public class 카잉달력 {
 
             year = (year > M * N) ? -1 : year;
             System.out.println(year);
-
-
         }
     }
 }
