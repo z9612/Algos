@@ -6,7 +6,7 @@ public class _1759암호만들기 {
     static int C; //C 개중
     static int L; //L개를 선택함
     static char[] inputs; //입력 배열
-    static char[] arr; // 완성된 순열 배열
+    static char[] arr; // 완성된 조합 배열
     static boolean[] isChecked; //이미 쓴 원소인지 체크
     static StringBuilder sb;
 
