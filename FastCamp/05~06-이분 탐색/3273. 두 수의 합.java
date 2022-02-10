@@ -8,7 +8,7 @@ public class Main2 {
         Scanner sc = new Scanner(System.in);
         int N = sc.nextInt();
         int res = 0;
-        List<Integer> list = new ArrayList<>(); //정렬된 set
+        List<Integer> list = new ArrayList<>();
 
         for (int i = 0; i < N; i++) {
             list.add(sc.nextInt());
